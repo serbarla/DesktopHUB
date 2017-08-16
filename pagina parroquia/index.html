@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <link rel="shortcut icon" href="images/cruz.png" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="./css/floating-share.css" />
+	<title>Centro Médico La Armenia</title>
+	<link rel="stylesheet" media="screen" type="text/css" href="css/style.css" />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  </head>
+
+  <body>
+  <script type="text/javascript">
+		function cambiarPagina(archivo)
+		{
+			document.getElementById('contenedor').src = archivo;
+		}
+		function cambiarCaritas(archivo)
+		{
+			location.href = archivo;
+		}
+		
+  </script>
+
+  
+  
+    <div id="container">
+      <div id="body_space">
+        <div id="header">
+          
+          <div id="logo-block">
+		    <!-- type your logo and small slogan here -->
+		    <p id="logo"><img src="images/LOGO1.jpg" width="498" height="96" /> <!--La<span class="logoblue">   Armenia</span> --></p>
+		    <!-- <p id="slogan">Centro médico</p> -->
+			<!-- end logo and small slogan -->
+		  </div>
+
+		  <div class="cls">
+           <ul id="menu">
+          
+          	  <li><a href="#" onClick="cambiarPagina('historia.html');">Inicio</a></li>
+  			 <li><a href="#">Horarios</a>
+               <ul>
+                 <li><a href="#"  onClick="cambiarPagina('misa.html');">Misa</a></li>
+                 <li><a href="#"  onClick="cambiarPagina('cate.html');">Catequesis</a></li>
+                 <li><a href="#"  onClick="cambiarPagina('despacho.html');">Despacho</a></li>
+        	   </ul>
+              <li><a href="#" onClick="cambiarPagina('grupos.html');">Grupos Parroquiales</a></li>
+              <li><a href="#">Contáctenos</a>
+               <ul>
+                 <li><a href="#"  onClick="cambiarPagina('croquis.html');">Croquis</a></li>
+                 <li><a href="#"  onClick="cambiarPagina('contactosPa.html');">Contactos</a></li>
+               </ul>
+		      </li>
+              <li><a href="#" onClick="cambiarCaritas('caritas.html');">Cáritas</a></li>
+   			  
+
+		  </ul>
+         </div> <!-- se cierra el menu -->
+
+           <div> 
+               <!-- programacion del banner -->
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>  
+    <script type="text/javascript" src="js/jssor.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var _CaptionTransitions = [];
+            _CaptionTransitions["L"] = { $Duration: 900, x: 0.6, $Easing: { $Left: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
+            _CaptionTransitions["R"] = { $Duration: 900, x: -0.6, $Easing: { $Left: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
+            _CaptionTransitions["T"] = { $Duration: 900, y: 0.6, $Easing: { $Top: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
+            _CaptionTransitions["B"] = { $Duration: 900, y: -0.6, $Easing: { $Top: $JssorEasing$.$EaseInOutSine }, $Opacity: 2 };
+            //Reference http://www.jssor.com/development/tool-caption-transition-viewer.html
+
+            var options = {
+                $AutoPlay: true,                                    
+                $PlayOrientation: 1,                     
+                $DragOrientation: 3,                             
+                $CaptionSliderOptions: {                            //[Optional] Options which specifies how to animate caption
+                    $Class: $JssorCaptionSlider$,                   //[Required] Class to create instance to animate caption
+                    $CaptionTransitions: _CaptionTransitions,       //[Required] An array of caption transitions to play caption, see caption transition section at jssor slideshow transition builder
+                    $PlayInMode: 1,                                 //[Optional] 0 None (no play), 1 Chain (goes after main slide), 3 Chain Flatten (goes after main slide and flatten all caption animations), default value is 1
+                    $PlayOutMode: 3                                 //[Optional] 0 None (no play), 1 Chain (goes before main slide), 3 Chain Flatten (goes before main slide and flatten all caption animations), default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        });
+    </script>
+    <!-- Jssor Slider Begin -->
+	<!-- Botones de redes sociales -->
+	<script type="text/javascript" src="./js/jquery.floating-share.js"></script>
+    <script>
+    $(function(){
+		$("body").floatingShare({
+			place: "top-left", // alternatively top-right
+            counter: true, // set to false to hide counters of pinterest, facebook, twitter and linkedin
+            buttons: ["facebook","twitter","google-plus","linkedin","pinterest","stumbleupon","envelope"], // all of the currently avalaible social buttons
+            title: document.title, // your title, default is current page's title
+            url: window.location.href,  // your url, default is current page's url
+            text: "share with ", // the title of a tags
+            description: $("meta[name='description']").attr("content"), // your description, default is current page's description
+            popup_width: 400, // the sharer popup's width, default is 400px
+            popup_height: 300 // the sharer popup's width, default is 300px
+		});
+	});
+    </script>
+    <!-- You can move inline styles to css file or css block. -->
+    <div id="slider1_container" style="position: relative; width: 1200px; height: 240px;">
+    
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #FFF; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block;  background: url(images/cargando.png) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+        
+         
+
+        <!-- Slides Container IMAGENES-->
+        <div u="slides" style="cursor: move; position: absolute; left: 2px; top: -56px; width: 980px; height: 300px; overflow: hidden;">
+            
+            <div><img u="image" src="images/banner/1.jpg" /></div>
+            <div><img u="image" src="images/banner/2.jpg" /></div>
+            <div><img u="image" src="images/banner/3.jpg" /></div>
+            <div><img u="image" src="images/banner/4.jpg" /></div>
+            <div><img u="image" src="images/banner/5.jpg" /></div>
+         
+        </div>
+        
+        <a style="display: none" href="http://www.jssor.com">javascript</a>
+    </div>
+    <!-- Jssor Slider End -->
+           
+           </div>
+	   <!-- <div id="clouds">
+		   large slogan here 
+   	      <div id="clouds-slogan1"><p>a very large website slogan</p></div>
+	      <div id="clouds-slogan2"><p>can be placed in this area</p></div>
+		 
+	    </div> -->
+	  </div>
+	</div>
+	<div id="page">
+	  <div id="page-padding">
+        <!-- start content -->	    
+	    <div id="content">
+
+            <section id="container" style="background:#fff">
+			     <iframe id="contenedor" src="historia.html" width="695" height="560" frameborder="0" scrolling="no" style="margin-top: 0px; margin-left:-300px"></iframe>	  
+            </section>
+
+		</div>		<!-- end content -->
+	    <div id="right-nav">
+		  <!-- right side menu, copy and paste what is contained between these start and end comment tags to make an extra menu -->
+          <div class="right-nav-back">
+		    <div class="right-nav-top"><p>.: Te Recomendamos</p></div>
+	        <ul>
+			  <li><a href="http://w2.vatican.va/content/vatican/es.html" target="_blank">+ Noticias del Vaticano</a></li>
+			  <li><a href="https://www.aciprensa.com/noticias/etiquetas/iglesia-catolica/"target="_blank">+ Prensa Católica</a></li>
+			  <li><a href="https://www.biblegateway.com/passage/?search=Mateo+5&version=NTV"target="_blank">+ Sermón del Día</a></li>
+			  <li><a href="http://www.mas.ec/catolica/"target="_blank">+ Conferencia Episcopal EC</a></li>
+			</ul>
+
+		    <div class="right-nav-bottom"></div>
+		  </div>
+		  <!-- end right side menu -->
+		  <!-- start second menu for the newletter -->
+          <div class="right-nav-back">
+		    <div class="right-nav-top"><p>.: Destacados</p></div>
+			  <div id="destacado">
+              <ul>
+              <li><a href="http://www.centromedicomunozvega.com" target="_blank"><img src="images/casa.png"> Centro Médico Muñoz Vega</a></li>
+			 
+		  
+			</ul>
+		      </div>
+		    <div class="right-nav-bottom"></div>
+		  </div>
+		  <!-- end second right side menu, newletter -->
+		  <br /><br /><br /><br /><br /><br />
+	    </div>
+	  </div>
+	  <div id="footer">
+	    <div id="footer-pad">
+	      <div class="line"></div>
+		  <!-- footer and copyright notice -->
+	      <p>Fundación Casa del Sagrado Corazón - La Armenia.Todos los Derechos Reservados.Tema Referenciado. <a href="http://www.steves-templates.com">Steve's free website templates</a>.</p>
+		  <!-- end footer and copyright notice -->
+	    </div>
+	  </div>
+	</div>
+  </body>
+</html>

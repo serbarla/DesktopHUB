@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  }
+body {
+	padding: 15px;
+	font-size: 100%;
+	text-align: justify;
+	height: 644px;
+	background: #fff url(../images/pag01.jpg) repeat-x top left;
+
+
+	
+
+}
+
+h1{
+  font:30px Georgia, "Times New Roman", Times, serif;
+	color:#BD6A4A;
+
+}
+p{
+	font:20px "Georgia";
+	padding:inherit;
+	line-height: 190%;
+}
+table{
+	font:14px "Georgia";
+	padding:inherit;
+	line-height: 190%;
+	alignment-adjust:middle;
+}
+.lema{
+
+    font-style: italic;
+}
+ UL{
+	padding-left:100px;	
+ 	font:20px "Georgia";
+	line-height: 130%;
+
+}
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+  
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+  font-size: 18px;
+  
+}
+th{
+	color: #FFF;
+	background: #EB3530;
+	font-weight: bold;
+	font-size: 18px;
+}
