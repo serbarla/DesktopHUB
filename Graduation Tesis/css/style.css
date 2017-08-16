@@ -1,0 +1,197 @@
+body {
+	background: url(../images/fondo1.jpg) no-repeat center top;
+	font-family: 'Georgia';
+	margin: 0;
+}
+img {
+	border: 0;
+}
+
+#header {
+	height: 206px;
+	text-align: right;
+}
+#header > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#logo {
+	float:none;
+}
+
+#forma {
+	margin: 0 600px;
+	padding: 0 10px;
+}
+#forma > div{
+	margin:12%;
+}
+#instruccion {
+	width: 1024px;
+	margin: 0 400px;
+	padding: 0 10px;
+}
+#principal {
+	min-height: 85px;
+	margin-top: -79px;
+	position: relative;
+}
+#principal > div {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+#ejercicios {
+	padding: 18px 0;
+}
+#ejercicios a {
+	background: url(../images/buttons2.png) no-repeat;
+	display: inline-block;
+	height: 318px;
+	width: 314px;
+	margin-left: 4px;
+}
+#ejercicios a:first-child {
+	margin-left: 0;
+}
+#ejercicios a.atencion {
+	background-position: -324px 0;
+}
+#ejercicios a.retencion {
+	background-position: -324px -328px;
+}
+#ejercicios a.interaccion {
+	background-position: -324px -656px;
+}
+#ejercicios a.atencion:hover {
+	background-position: 0 0;
+}
+#ejercicios a.retencion:hover {
+	background-position: 0 -328px;
+}
+#ejercicios a.interaccion:hover {
+	background-position: 0 -656px;
+}
+
+#footer {
+	clear: both;
+}
+
+#info {
+
+	color: #111111;
+	margin: 5 auto;
+	padding-bottom: 8px;
+}
+#info p {
+	font-size: 13px;
+	line-height: 24px;
+	margin: 5;
+}
+#info p a {
+	color: #4449FF;
+	text-decoration: none;
+}
+#info p a:hover {
+	color:#F90404;
+}
+#info div.header {
+
+	padding-top: 8px;
+}
+#info div.body {
+
+	min-height: 300px;
+}
+#info div.body > div {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#info div.body > div:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+#info div.section {
+	float:right;
+	height: 284px;
+	width: 295px;
+	padding: 20px 5px 0 20px;
+	overflow: hidden;
+}
+#info div.section:first-child {
+	background: none;
+	padding-left: 5;
+}
+#info div.section h1 {
+	color: #111111;
+	font-family: 'Georgia';
+	font-weight: normal;
+	margin-bottom: 12px;
+	padding-bottom: 12px;
+	text-transform: uppercase;
+}
+#social a {
+	background: url(../images/iconos.png) no-repeat;
+	display: inline-block;
+	height: 26px;
+	width: 25px;
+	margin-right: 5px;
+}
+#social a.facebook {
+	background-position: -35px 0;
+}
+#social a.twitter {
+	background-position: -35px -38px;
+}
+#social a.facebook:hover {
+	background-position: 0 0;
+}
+#social a.twitter:hover {
+	background-position: 0 -38px;
+}
+#footer div.footer {
+	font-family: 'Georgia';
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#footer div.footer {
+	padding: 10px 0 20px;
+}
+
+#footer div.footer p {
+	color: #5c5b58;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0;
+}
+#footer div.footer p a {
+	color: #5c5b58;
+	border-left: 1px solid #6f6e68;
+	margin-left: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#footer div.footer p a:hover {
+	color: #887c6c;
+}
+input[type=submit] {
+    border: 10px solid #D4BB4D;
+    color: #fff;
+	font-size: 150%;
+	text-transform: uppercase;
+    background: #CC36BA;
+    padding: 10px 10px;
+    border-radius: 3px;
+}
+input[type=submit]:hover {
+	color: #111;
+    background: #19998E;
+}
