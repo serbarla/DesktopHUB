@@ -1,0 +1,33 @@
+Days and hours of no circulation
+
+pbo5387 24/8/2017  08:45	success no driving
+pww255	27/11/1991 07:36	success no driving
+aac0123	10/11/1992 07:52	success no driving
+gsl1000 25/8/2017  09:00	success no driving
+pcb1046 9/8/2017   09:25	success no driving
+pcj4480 11/3/2016  17:00	success no driving
+ptx593  1/8/2017   19:00	success no driving
+gnf414  15/8/2017  16:00	success no driving
+pba1827 3/8/2017   19:30	success no driving
+acj0081 10/7/2017  18:00	success no driving
+
+Days and hours of free driving
+
+pda7786	14/03/2002 10:40	success can drive
+tdh398	09/08/2006 11:30	success can drive
+pru0279	15/11/2010 11:32	success can drive
+pyl964	07/05/2014 13:42	success can drive
+plg115	01/03/2018 13:52	success can drive
+pbb3239	30/07/2020 16:04	success can drive
+msa1200	02/10/2020 16:36	success can drive
+ptv283	19/08/2024 17:12	success can drive
+oba1449	03/01/2030 17:28        success can drive
+mcb250	16/12/1998 08:26	success can drive
+
+Days of no circulation but available hours
+
+xbw421	10/01/2000 09:36	success can drive
+iba1752	14/8/2017  19:31	success can drive
+phq663  6/6/2017   6:59		success can drive
+pln839	08/02/1991 06:14	success can drive
+atb8780	14/06/1991 15:54	success can drive
